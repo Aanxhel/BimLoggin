@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LoggViewComponent } from './logg-view.component';
+import { LogViewComponent } from './log-view.component';
 
-describe('LoggViewComponent', () => {
-  let component: LoggViewComponent;
-  let fixture: ComponentFixture<LoggViewComponent>;
+describe('LogViewComponent', () => {
+  let component: LogViewComponent;
+  let fixture: ComponentFixture<LogViewComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LoggViewComponent ]
+      declarations: [ LogViewComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LoggViewComponent);
+    fixture = TestBed.createComponent(LogViewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
