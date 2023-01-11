@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LogViewComponent } from './log-view.component';
+import { UserFormComponent } from './user-form.component';
 
-describe('LogViewComponent', () => {
-  let component: LogViewComponent;
-  let fixture: ComponentFixture<LogViewComponent>;
+describe('UserFormComponent', () => {
+  let component: UserFormComponent;
+  let fixture: ComponentFixture<UserFormComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LogViewComponent ]
+      declarations: [ UserFormComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LogViewComponent);
+    fixture = TestBed.createComponent(UserFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
