@@ -16,4 +16,3 @@ export class UserService {
     return of(USERS);
   }
 }
-
